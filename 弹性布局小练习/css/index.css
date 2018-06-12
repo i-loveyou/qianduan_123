@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	width:100%;
+}
+.body{
+	background:#EEEEEE;
+}
+@media (max-width:768px){
+	.container{
+		width:98%;
+	}
+}
+.body{
+	padding:48px 60px 48px 60px;
+}
+.body h1,h2{
+	width: 100%;
+	text-align:center;
+	padding-right: 15px;
+    	padding-left: 15px;
+}
+@media (max-width:768px){
+	.body h1{
+		font-size:30px;
+	}
+	.body h2{
+		font-size:23px;
+	}
+}
+.footer{
+	text-align:center;
+	margin-top:30px;
+}
